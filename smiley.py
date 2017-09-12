@@ -18,6 +18,7 @@ def drawFace(center, size,window):
     head.draw(win)
  
     mouth = Circle(center, size*13)
+
     mouth.setFill("blue")
     mouth.setOutline("red")
     mouth.draw(win)
